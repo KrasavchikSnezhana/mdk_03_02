@@ -1,0 +1,111 @@
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(50, 34, 12, 0.3);
+    padding: 10px;
+}
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.new1{
+    background: url(../img/new1.png);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/new2.png);
+    background-size: cover;
+}
+.new3{
+    background: url(../img/new3.png);
+    background-size: cover;
+}
+body{
+    background: rgb(253, 247, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 29, 11);
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+}
+a {color: rgb(48, 29, 11);}
+h3 {font-size: 18px;}
+h2 {font-size: 20px;}
+h1 {font-size: 24px;}
+table{
+    border-collapse: collapse;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul{
+    background: rgba(48, 29, 11);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+nav li{
+    padding: 15px;
+}
+nav a{
+    color: rgb(253, 247, 228);
+    text-decoration: none;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+}
+main{
+    width: 80%;
+}
+aside{
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(48, 29, 11);
+    color: rgb(253, 247, 228);
+    border-radius: 8px;
+    height: fit-content;
+}
+.skills{
+    display: flex;
+}
+.skills article{
+    width: 40%;
+}
+.skill1{
+    background: url(../img/skill1.png);
+    background-size: cover;
+}
+.skill2{
+    background: url(../img/skill2.png);
+    background-size: cover;
+}
+.skill3{
+    background: url(../img/skill3.png);
+    background-size: cover;
+}
+.courses{
+    display: flex; 
+}
+.courses article{
+    width: 35%;
+}
+.course1{
+    background: url(../img/course1.png);
+    background-size: cover;
+}
+.course2{
+    background: url(../img/course2.png);
+    background-size: cover;
+}
+footer{
+    background: rgba(48, 29, 11);
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    color: rgb(253, 247, 228);
+    padding: 0 0 0 15px;
+}
